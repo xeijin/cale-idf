@@ -15,7 +15,7 @@
 #define LCD_HOST    HSPI_HOST
 #define DMA_CHAN    2
 
-#define PIN_NUM_MISO 25
+#define PIN_NUM_MISO 19
 #define PIN_NUM_MOSI 23
 #define PIN_NUM_CLK  18
 #define PIN_NUM_CS   32
