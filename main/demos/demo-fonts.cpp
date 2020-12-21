@@ -110,6 +110,7 @@ void app_main(void)
 
    // Let's draw one 100px radius circle Black and another on the right 120px radius Red
    display.fillCircle(300,650, 165, EPD_RED); // test bottom left quadrant
+   display.fillCircle(300,300, 100, EPD_WHITE);
 
    display.fillCircle(600,300, 120, EPD_RED);
 

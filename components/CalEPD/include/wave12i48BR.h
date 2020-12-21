@@ -22,7 +22,6 @@
 // black channel inverted in update()
 #define WAVE12I48_8PIX_BLACK_INK   0xFF
 #define WAVE12I48_8PIX_BLACK_CLEAR 0x00
-
 #define WAVE12I48_8PIX_RED_INK   0xFF
 #define WAVE12I48_8PIX_RED_CLEAR 0x00
 
