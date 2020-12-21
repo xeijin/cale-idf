@@ -66,18 +66,18 @@ void app_main(void)
    display.init(false);
    // Store your epapers all white, just turn true:
    if (false) {
-     display.fillScreen(EPD_RED); 
+     display.fillScreen(EPD_WHITE); 
      display.update();
      return;
    }
 
 
    display.setRotation(2); // 0 - 12.48 w/USB pointing down
-   display.fillScreen(EPD_BLACK);
-
+   display.fillScreen(EPD_WHITE);
+   display.update();
 
    display.setCursor(10,40);
-   display.setTextColor(EPD_WHITE);
+   display.setTextColor(EPD_BLACK);
    
    display.setFont(&Ubuntu_M12pt8b);
 
@@ -103,7 +103,7 @@ void app_main(void)
    demo_chars();
 
    // Let's draw one 100px radius circle Black and another on the right 120px radius Red
-   display.fillCircle(300,300, 100, EPD_BLACK);
+   display.fillCircle(300,300, 100, EPD_WHITE);
 
    display.fillCircle(600,300, 120, EPD_RED);
 
